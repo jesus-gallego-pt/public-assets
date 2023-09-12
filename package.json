@@ -1,0 +1,19 @@
+{
+  "name": "public-assets",
+  "description": "Jesus Gallego - Public Assets",
+  "version": "1.0.0",
+  "author": "Helder Manuel <helder.manuel@innki.tech>",
+  "keywords": [
+    "public-assets",
+    "jesus-gallego"
+  ],
+  "license": "MPL-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jesus-gallego-pt/public-assets.git"
+  },
+  "scripts": {
+    "build:images": "rm -rf dist/images/* && cp -R src/images/* dist/images/",
+    "deploy": "git subtree push --prefix dist github gh-pages"
+  }
+}
