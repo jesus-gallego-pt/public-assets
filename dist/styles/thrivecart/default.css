@@ -13,6 +13,13 @@
   width: 100% !important;
 }
 
+.thrivecart-body .tc-v2-region_type_cart .form.\:container\(width\<\=48em\) .row.row-columns:not(.row-nocollapse) .row-col+.row-col {
+  margin-top: 0.5em !important;
+}
+
+.footer-content {
+  display: none !important;
+}
 
 @keyframes rocking{
   0% {
