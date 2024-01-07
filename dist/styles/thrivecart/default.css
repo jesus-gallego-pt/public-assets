@@ -1,0 +1,39 @@
+/* ---------------------------------------------------------------- */
+/* Copyright: Innki Tech 2023. All Rights Reserved                  */
+/* Mantainer: Helder Manuel <helder.manuel@innki.tech>              */
+/* This file is licensed under the MPL 2.0 license                  */
+/* License text available at https://www.mozilla.org/en-US/MPL/2.0  */
+/* ---------------------------------------------------------------- */
+
+* {
+  -webkit-font-smoothing: antialiased;
+}
+
+.builder-v2-block-core_fields_buy_button > div.trigger > button {
+  animation: rocking 2s infinite !important;
+  animation-timing-function: cubic-bezier(0, 0, 0.58, 1) !important;
+  transition: .2s !important;
+  letter-spacing: 1px !important;
+}
+
+@keyframes rocking{
+  0% {
+    transform: rotate(0deg)
+  }
+
+  25% {
+    transform: rotate(0deg)
+  }
+  
+  50% {
+    transform: rotate(2deg)
+  }
+  
+  75% {
+    transform: rotate(-2deg)
+  }
+  
+  100% {
+    transform: rotate(0deg)
+  }
+}

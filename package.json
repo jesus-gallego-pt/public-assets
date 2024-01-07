@@ -14,6 +14,13 @@
   },
   "scripts": {
     "build:images": "rm -rf dist/images/* && cp -R src/images/* dist/images/",
+    "build:scripts": "rm -rf dist/scripts/* && babel src/scripts -d dist/scripts",
+    "build:styles": "rm -rf dist/styles/* && cp -R src/styles/* dist/styles/",
     "deploy": "git subtree push --prefix dist github gh-pages"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.19.3",
+    "@babel/core": "^7.19.3",
+    "@babel/preset-env": "^7.19.4"
   }
 }
