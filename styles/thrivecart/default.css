@@ -9,12 +9,10 @@
   -webkit-font-smoothing: antialiased;
 }
 
-.builder-v2-block-core_fields_buy_button > div.trigger > button {
-  animation: rocking 2s infinite !important;
-  animation-timing-function: cubic-bezier(0, 0, 0.58, 1) !important;
-  transition: .2s !important;
-  letter-spacing: 1px !important;
+.builder-regions .region-wrap {
+  width: 100% !important;
 }
+
 
 @keyframes rocking{
   0% {
